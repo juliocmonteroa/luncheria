@@ -17,7 +17,7 @@ session_start(); // Si tienes habilitado "session.auto_start=1" dejar esta linea
 function config(){
     $GLOBALS['charset'] = ('utf-8');
     $GLOBALS['date']=(date("d/m/Y"));
-	$GLOBALS['url']=("http://localhost/"); //http://demon.sytes.net/
+	$GLOBALS['url']=("https://juliocmonteroa.github.io/luncheria/"); 
     $GLOBALS['title']=('CONTROL DE VENTAS AUTOMATIZADO');
     $GLOBALS['initials']=('T.');
     $GLOBALS['version']=('v1.0');
